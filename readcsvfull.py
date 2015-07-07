@@ -1,7 +1,7 @@
 import csv
 import time
 
-c=open('iessmarzo.csv', 'rb')
+c=open('iessdic.csv', 'rb')
 reader = csv.reader(c, delimiter=';')
 writer01 = csv.writer(open("iess01.csv", "wb"), delimiter=';')
 writer02 = csv.writer(open("iess02.csv", "wb"), delimiter=';')
